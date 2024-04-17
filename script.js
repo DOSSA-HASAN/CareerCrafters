@@ -2,7 +2,7 @@ let menuButton = document.getElementById('ham-menu')
 let navLinks = document.getElementById('m-links-cont')
 
 function checkdeviceWidth(){
-    if(window.innerWidth <=900){
+    if(window.innerWidth <=1000){
         menuButton.addEventListener('click', ()=>{
             console.log('hel')
             navLinks.classList.toggle('block')
