@@ -4,7 +4,7 @@ Welcome to the repository for the CareerCrafters Employment Agency website. This
 
 ## Live Demo
 
-(livedemo)[https://dossa-hasan.github.io/CareerCrafters/]
+[livedemo](https://dossa-hasan.github.io/CareerCrafters/)
 
 ## Features
 
