@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bars-cont{
+    display: none;
+}
+
+/* section{
+    background-color: pink;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(156, 154, 154);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    padding: 20px 1.5%;
+}
+
+.nav-links a{
+    color: #000;
+    padding: 0 30px;
+}
+
+.apply-btn{
+    padding: 20px 1.5%;
+}
+
+.apply-btn a{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.hero-text h2{
+    font-size: 50px;
+    max-width: 450px;
+}
+
+.hero-text p{
+    max-width: 450px;
+    margin: 20px 0;
+}
+
+.hero-text .apply-btn {
+    margin-top: 35px;
+}
+
+.hero main{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    margin: 0 1.5%;
+}
+
+.hero-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    overflow: hidden;
+    max-height: 700px;
+
+}
+
+.hero-img .col-1, .hero-img .col-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+}
+
+.hero-img .col-1{
+    margin-top: -170px;
+}
+
+.hero-img div img{
+    width: 300px;
+    height: 350px;
+    margin: 5px 0;
+}
+
+.empowerment main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.empower-text-cont{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 60%;
+}
+
+.empower-text-cont h2{
+    font-size: 50px;
+    max-width: 600px;
+}
+
+.empowerment-caption{
+    width: 50%;
+}
+
+.empowerment-caption p{
+    max-width: 600px;
+}
+
+.industry-xp-cont{
+    display: flex;
+}
+
+.industry-xp{
+    margin-top: 30px;
+    max-width: 40%;
+    padding: 20px 20px 20px 0;
+}
+
+.industry-xp p{
+    width: 100%;
+    line-height: 1.8;
+}
+
+.fa-cube{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.apply-btn-cont{
+    margin-top: 15px;
+}
+
+.apply-btn-cont a{
+    color: #000;
+    border: 2px solid;
+    padding: 10px 20px;
+}
+
+.apply-btn-cont a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.extra-img{
+    margin: 70px 0;
+}
+
+.extra-img main img{
+    width: 100%;
+    height: 600px;
+}
+
+.find main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.opportunity-img-cont{
+    width: 60%;
+    height: 500px;
+    border: 1px solid;
+}
+
+.opportunity-img-cont img{
+    width: 100%;
+    height: 100%;
+}
+
+.inquire-cont{
+    background-color: rgb(0, 0, 0);
+    width: 97%;
+    height: 250px;
+    margin: 50px 1.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inquire-cont >*{
+    padding: 15px 10px;
+    color: #fff;
+}
+
+.inquire-cont h2{
+    font-size: 40px;
+}
+
+.inquire-cont .apply-btn-cont a{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.faq .section-head h2{
+    font-size: 50px;
+}
+
+.faq .section-head p{
+    width: 53%;
+    padding: 20px 0 60px 0;
+}
+
+.faq .questions ul{
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+.faq .questions ul li{
+    border-top: 1px solid;
+} 
+
+.faq .questions ul li:last-child{
+    border-bottom: 1px solid;
+} 
+
+.faq .questions ul li h5{
+    font-size: 17px;
+    padding: 20px 0 30px 0;
+}
+
+.faq .questions ul li p{
+    padding-bottom: 25px;
+}
+
+.ask-us h2{
+    font-size: 30px;
+}
+
+.ask-us p{
+    padding: 25px 0;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer main{
+    padding: 20px 0;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {    
+    .links-cont, header .apply-btn, #nav-links{
+        display: none;
+    }
+
+    .m-links-cont{
+        display: none;
+        background-color: #f5f3f3;
+    }
+
+    .block{
+        display: block;
+    }
+
+    .m-links-cont a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0;
+        color: #000;
+    }
+
+    .bars-cont{
+        display: flex;
+        font-size: 35px;
+        padding: 20px 1.5%;
+        color: #000;
+    }
+
+    .hero main{
+        flex-direction: column;
+        margin: 20px 1.5%;
+    }
+
+    .hero .hero-text{
+        width: 100%;
+    }
+
+    .hero-img{
+        margin-top: 30px;
+        width: 100%;
+        height: 300px;
+        padding: 0 1.5%;
+    }
+
+    .hero-img .col-1 img, .hero-img .col-2 img{
+        width: 100%;
+    }
+
+    .empowerment-caption{
+        width: 100%;
+    }
+
+    .empowerment-caption p{
+        max-width: 70%;
+    }
+
+    .empowerment main{
+        flex-direction: column;
+    }
+
+    .empower-text-cont h2{
+        padding: 20px 0;
+    }
+
+    .industry-xp-cont{
+        width: 100%;
+    }
+
+    .industry-xp p{
+        width: 100%;
+    }
+
+    .extra-img main img{
+        height: 400px;
+    }
+
+    .empower-text-cont{
+        width: 70%;
+    }
+
+    .empower-text-cont h2{
+        max-width: 100%;
+    }
+
+    .find main{
+        flex-direction: column;
+    }
+
+    .empower-text-cont .apply-btn-cont{
+        margin-bottom: 35px;
+    }
+
+    .opportunity-img-cont{
+        width: 100%;
+        /* h */
+    }
+
+    .faq .section-head p{
+        width: 80%;
+    }
+
+    .hero-img img{
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    .hero main{
+        margin-top: 60px;
+    }
+    
+    .hero-text h2, .empower-text-cont h2, .faq .section-head h2{
+        font-size: 30px;
+    }
+
+    .empower-text-cont{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .empowerment-caption p{
+        max-width: 95%;
+    }
+
+    .opportunity-img-cont{
+        /* width: 100%; */
+        height: 400px;
+    }
+
+    .inquire-cont{
+        height: 370px;
+    }
+
+    .faq .section-head p{
+        width: 100%;
+    }
+
+    footer main{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer main h2{
+        padding-bottom: 20px;
+    }
+
+    .industry-xp-cont{
+        flex-direction: column;
+    }
+
+    .industry-xp{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    main, header, .inquire-cont{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
