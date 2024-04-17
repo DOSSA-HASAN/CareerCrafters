@@ -254,14 +254,14 @@ footer main{
     align-items: center;
 }
 
+.m-links-cont{
+    display: none;
+    background-color: #f5f3f3;
+}
+
 @media screen and (max-width: 1000px) {    
     .links-cont, header .apply-btn, #nav-links{
         display: none;
-    }
-
-    .m-links-cont{
-        display: none;
-        background-color: #f5f3f3;
     }
 
     .block{
